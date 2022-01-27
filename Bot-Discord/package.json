@@ -1,0 +1,20 @@
+{
+  "name": "music-hentai-bot",
+  "version": "1.0.0",
+  "description": "bot-discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pallado",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "@distube/spotify": "^1.0.0",
+    "discord.js": "^12.5.1",
+    "distube": "^3.0.1",
+    "ffmpeg": "^0.0.4",
+    "fs": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.9"
+  }
+}

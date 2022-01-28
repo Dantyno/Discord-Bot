@@ -4,7 +4,7 @@ const botconfig = require("../botsettings.json");
 module.exports.run = async(bot,msg,args) => {
     
     if(isNaN(args[0])){
-        return msg.reply("non è un numero,coglione")
+        return msg.reply("non è un numero")
     }
     if (!msg.member.hasPermission("MANAGE_MESSAGES")) {
         return msg.reply("Missing Permissions!")
